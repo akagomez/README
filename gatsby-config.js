@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Strict Starter',
+    title: 'Chris Gomez | Leader, Maker, and Innovator',
   },
   plugins: ['gatsby-plugin-react-helmet'],
 };

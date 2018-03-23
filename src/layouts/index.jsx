@@ -8,7 +8,7 @@ import './index.css';
 const IndexLayout = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Strict Starter"
+      title="Chris Gomez | Leader, Maker, and Innovator"
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
