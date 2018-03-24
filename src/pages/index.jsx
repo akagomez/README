@@ -1,7 +1,26 @@
 import React from 'react';
 
-const IndexPage = () => (
+export const query = graphql`
+  query AllNotesQuery {
+    allNotesYaml {
+      edges{
+        node {
+          note
+        }
+      }
+    }
+  }
+`
+
+const IndexPage = ({
+  data: {
+    allNotesYaml: {
+      edges
+    }
+  }
+}) => (
   <div>
+    {<pre>{JSON.stringify(edges, 2, 2)}</pre>}
     <h1 style={{
       fontStyle: 'italic'
     }}>Why, Hello!!!</h1>

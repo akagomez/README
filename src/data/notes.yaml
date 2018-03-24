@@ -1,0 +1,16 @@
+- note: |
+    Foo
+    Bar
+    Baz
+
+    ```
+    console.log('Hello world!')
+    ```
+- note: |
+    Foo
+    Boo
+    Zoo
+
+    ```
+    console.log('Bye world!')
+    ```

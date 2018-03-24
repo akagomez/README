@@ -14,6 +14,8 @@
     "gatsby-plugin-google-analytics": "^1.0.24",
     "gatsby-plugin-google-tagmanager": "^1.0.15",
     "gatsby-plugin-react-helmet": "^2.0.4",
+    "gatsby-source-filesystem": "^1.5.27",
+    "gatsby-transformer-yaml": "^1.5.16",
     "react-helmet": "^5.2.0"
   },
   "devDependencies": {
